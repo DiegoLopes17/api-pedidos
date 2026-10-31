@@ -1,0 +1,21 @@
+{
+  "name": "api-pedidos",
+  "version": "1.0.0",
+  "description": "API REST de gerenciamento de pedidos para uma pequena loja",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
